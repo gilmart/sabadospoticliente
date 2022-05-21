@@ -1,12 +1,7 @@
 // PASOS PARA CONSUMIR UN API
-
-
-
-
-
-
 //3. ARRANCA AL SERVIDOR = CONSUMIR EL API - VA AL SERVIDOR
-    fetch(URI,PETICION)
+/* 
+fetch(URI,PETICION)
     .then(function(respuesta){
         return(respuesta.json()) // GARANTIZO FORMATO JSON
     })
@@ -18,9 +13,11 @@
     .catch(function(respuesta){
         console.log(respuesta) // MUESTRO EL FALLO SI NO SE PUDO CONSUMIR EL API
     })
+*/
+
 
     //FUNCION PARA PINTAR INFO QUE LLEGA DEL API
-    function pintarCanciones(canciones){
+   export function pintarCanciones(canciones){
       //  console.log(canciones)       //objeto
      //console.log(canciones.tracks)     //arreglo
     
